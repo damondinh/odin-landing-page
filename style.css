@@ -5,33 +5,34 @@ body {
     margin: 0;
 }
 
-#content {
+.content {
     padding-left: 200px;
     padding-right: 200px;
 }
 
-.header, .footer {
+/* Header and footer */
+#header, #footer {
     background-color: #1F2937;
 }
 
-.header {
+#header {
     display: flex;
     justify-content: space-between;
 
 }
 
-.left, .right{
+#left, #right{
     display: flex;
     align-items: center;
 }
 
-.left {
+#left {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
 
-.right {
+#right {
     font-size: 18px;
 }
 
@@ -39,8 +40,6 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
-    
-
 }
 
 a {
@@ -48,7 +47,7 @@ a {
     color: #E5E7EB;
 }
 
-.footer {
+#footer {
     text-align: center;
     color: #E5E7EB;
     padding: 30px;
