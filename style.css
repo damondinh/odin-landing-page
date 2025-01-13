@@ -1,14 +1,15 @@
 body {
     display: flex; 
     flex-direction: column;
+    justify-content: center;
     font-family: Roboto;
     margin: 0;
-    justify-content: center;
 }
 
 .content {
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 100px;
 }
 
 
@@ -20,7 +21,7 @@ body {
 #header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
+    
 }
 
 #left, #right{
@@ -90,3 +91,40 @@ a {
     margin: 5px;
     border-radius: 8px;
 }
+
+/* Information */ 
+#infoHeader {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 50px; 
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+}
+.card {
+    border: 5px solid #3882F6;
+    border-radius: 18px;
+    width: 150px; 
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.text {
+    text-align: center;
+    color: #1F2937;
+    width: 150px;
+}
+
