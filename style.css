@@ -4,6 +4,7 @@ body {
     justify-content: center;
     font-family: Roboto;
     margin: 0;
+    
 }
 
 .content {
@@ -83,7 +84,7 @@ a {
     margin: 5px;
 }
 
-#btnSignUp {
+#btnSignUp, #advertButton{
     background-color: #3882F6;
     color: white;
     font-size: 18px;
@@ -111,7 +112,7 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;   
 }
 .card {
@@ -126,5 +127,47 @@ a {
     text-align: center;
     color: #1F2937;
     width: 150px;
+}
+
+/* Quote */
+#quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#quoteContent {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 1;
+}
+
+#quotee {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* Advert */ 
+#advert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 10px;
+    padding: 50px 100px 50px 100px;
+    color: white;
+}
+
+#advertHeader {
+    font-weight: bold;
+}
+
+#advertButton {
+    border-color: white;
 }
 
