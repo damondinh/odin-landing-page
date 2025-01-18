@@ -24,18 +24,18 @@ body {
     
 }
 
-#left, #right{
+#headerLogo, #headerLinks{
     display: flex;
     align-items: center;
 }
 
-#left {
+#headerLogo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
 
-#right {
+#headerLinks {
     font-size: 18px;
 }
 
